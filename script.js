@@ -1,1 +1,1 @@
-alert("test");
+prompt("Entrez une valeur");
