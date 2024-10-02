@@ -9,18 +9,18 @@
 </head>
 <body>
     <h1>Navigateur Principal</h1>
-    <script>
-        var socket = io();
+   // <script>
+     //   var socket = io();
 
         // Connexion WebSocket avec le serveur Flask
-        socket.on('connect', function() {
-            console.log('Navigateur principal connecté avec WebSocket.');
+       // socket.on('connect', function() {
+        //    console.log('Navigateur principal connecté avec WebSocket.');
         });
 
         // Écoute de la valeur renvoyée par le navigateur secondaire
-        socket.on('log_input_to_principal', function(data) {
-            console.log("Valeur reçue du navigateur secondaire : " + data.input);
+       // socket.on('log_input_to_principal', function(data) {
+        //    console.log("Valeur reçue du navigateur secondaire : " + data.input);
         });
-    </script>
+   // </script>
 </body>
 </html>
